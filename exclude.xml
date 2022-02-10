@@ -49,4 +49,11 @@
    <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-jcl@.*$</packageUrl>
    <cpe>cpe:/a:springsource:spring_framework</cpe>
 </suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: spring-beans-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-beans@.*$</packageUrl>
+   <cpe>cpe:/a:springsource:spring_framework</cpe>
+</suppress>
 </suppressions>
