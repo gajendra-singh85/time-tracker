@@ -28,4 +28,18 @@
    <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-core@.*$</packageUrl>
    <cpe>cpe:/a:vmware:springsource_spring_framework</cpe>
 </suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: spring-aop-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-aop@.*$</packageUrl>
+   <cpe>cpe:/a:springsource:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: spring-core-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-core@.*$</packageUrl>
+   <cpe>cpe:/a:vmware:spring_framework</cpe>
+</suppress>
 </suppressions>
