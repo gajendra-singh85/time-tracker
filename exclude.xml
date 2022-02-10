@@ -5,7 +5,13 @@
       file name: spring-aop-5.0.2.RELEASE.jar
       ]]></notes>
       <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-aop@.*$</packageUrl>
-      <cve>CVE-2018-1257</cve>
-      <cve>CVE-2018-1199</cve>
+      <cpe>cpe:/a:vmware:spring_framework</cpe>
    </suppress>
+   <suppress>
+   <notes><![CDATA[
+   file name: spring-aop-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-aop@.*$</packageUrl>
+   <cpe>cpe:/a:springsource:spring_framework</cpe>
+</suppress>
 </suppressions>
