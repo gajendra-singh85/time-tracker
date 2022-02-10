@@ -56,4 +56,67 @@
    <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-beans@.*$</packageUrl>
    <cpe>cpe:/a:springsource:spring_framework</cpe>
 </suppress>
+ <suppress>
+   <notes><![CDATA[
+   file name: spring-context-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-context@.*$</packageUrl>
+   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: spring-context-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-context@.*$</packageUrl>
+   <cpe>cpe:/a:vmware:spring_framework</cpe>
+</suppress>
+ <suppress>
+   <notes><![CDATA[
+   file name: spring-jcl-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-jcl@.*$</packageUrl>
+   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: spring-jcl-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-jcl@.*$</packageUrl>
+   <cpe>cpe:/a:vmware:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: time-tracker-web-0.5.0-SNAPSHOT.war: spring-context-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-context@.*$</packageUrl>
+   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: time-tracker-web-0.5.0-SNAPSHOT.war: spring-context-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-context@.*$</packageUrl>
+   <cpe>cpe:/a:springsource:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: time-tracker-web-0.5.0-SNAPSHOT.war: spring-context-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-context@.*$</packageUrl>
+   <cpe>cpe:/a:vmware:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: time-tracker-web-0.5.0-SNAPSHOT.war: spring-jcl-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-jcl@.*$</packageUrl>
+   <cpe>cpe:/a:pivotal_software:spring_framework</cpe>
+</suppress>
+<suppress>
+   <notes><![CDATA[
+   file name: time-tracker-web-0.5.0-SNAPSHOT.war: spring-jcl-5.0.2.RELEASE.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-jcl@.*$</packageUrl>
+   <cpe>cpe:/a:vmware:spring_framework</cpe>
+</suppress>
 </suppressions>
