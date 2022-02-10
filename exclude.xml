@@ -6,5 +6,7 @@
       ]]></notes>
       <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-aop@.*$</packageUrl>
       <cve>CVE-2018-11039</cve>
+	  <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-core@.*$</packageUrl>
+   <cve>CVE-2018-1199</cve>
    </suppress>
 </suppressions>
