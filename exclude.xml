@@ -5,6 +5,6 @@
       file name: spring-aop-5.0.2.RELEASE.jar
       ]]></notes>
       <packageUrl regex="true">^pkg:maven/org\.springframework/spring\-aop@.*$</packageUrl>
-      <cve>CVE-2018-11040</cve>
+      <cve>CVE-2018-1257</cve>
    </suppress>
 </suppressions>
